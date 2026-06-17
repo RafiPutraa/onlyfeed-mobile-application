@@ -1,16 +1,35 @@
-# onlyfeed
 
-A new Flutter project.
+---
 
-## Getting Started
+# OnlyFeed
 
-This project is a starting point for a Flutter application.
+```md
+# OnlyFeed
 
-A few resources to get you started if this is your first Flutter project:
+OnlyFeed is a Flutter-based mobile application integrated with IoT devices to simplify pet feeding and monitoring.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Overview
+The application enables users to remotely feed pets, monitor food availability, and track environmental conditions in real time through MQTT communication.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Features
+- Remote pet feeding
+- Real-time food availability monitoring
+- Temperature monitoring
+- MQTT communication
+- API integration
+- Responsive interface
+
+## Tech Stack
+- Flutter
+- Dart
+- MQTT
+- RESTful API
+
+## Architecture
+Built with modular architecture to support maintainability and scalability.
+
+## Installation
+```bash
+git clone https://github.com/RafiPutraa/onlyfeed-mobile-application.git
+flutter pub get
+flutter run
